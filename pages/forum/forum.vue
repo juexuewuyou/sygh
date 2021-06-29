@@ -1,7 +1,5 @@
 <template>
-	<view>
-		
-	</view>
+	<!-- 论坛 -->
 </template>
 
 <script>

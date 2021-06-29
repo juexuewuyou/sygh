@@ -3,13 +3,15 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": ""
+				"navigationBarTitleText": "",
+				"navigationStyle":"custom"
 			}
 		}, {
 			"path": "pages/release/release",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
 			}
 
 		}, {
@@ -35,6 +37,14 @@
                 "enablePullDownRefresh": false
             }
             
+        },{
+            "path" : "pages/release/released/released",
+            "style" :{
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
         }
     ],
 	"globalStyle": {
@@ -56,9 +66,10 @@
 				"text": "首页"
 			},
 			{
-				"pagePath": "pages/release/release",
+				 "pagePath": "pages/release/released/released",
+				
 				"iconPath": "static/image/icon/icon_Release.png",
-				"selectedIconPath": "static/image/icon/icon_Checked_Release.png",
+				"selectedIconPath": "static/image/icon/fabu2.png",
 				"text": "发布"
 			},
 			{
@@ -70,7 +81,7 @@
 			{
 				"pagePath": "pages/me/me",
 				"iconPath": "static/image/icon/icon_Me.png",
-				"selectedIconPath": "static/image/icon/icon_Checked_Me.png",
+				"selectedIconPath": "static/image/icon/wode2.png",
 				"text": "我的"
 			}
 		]

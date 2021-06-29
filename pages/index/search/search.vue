@@ -10,7 +10,7 @@
 			placeholderStyle="color:#999999" 
 			:clearable="false">
 				</uni-easyinput>
-			<view style="color:#999;font-size: 1rpx;" @click="">
+			<view style="color:#999;font-size: 0.75rem;" @click="">
 				<navigator animation-type="pop-out" animation-duration="300" open-type="navigateBack" style="width:60rpx;height:46rpx;margin:8rpx 26rpx 0 38rpx">取消</navigator>
 			</view>
 		</view>
@@ -22,7 +22,7 @@
 	export default {
 		data() {
 			return {
-				
+				value:''
 			}
 		},
 		methods: {

@@ -1,0 +1,148 @@
+.index {
+		padding: 0 30rpx;
+// 顶部搜索
+		.tosearch {
+			width:100%;
+			padding: 60rpx 0 28rpx 0;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: #fff;
+		  .inputbgc{
+			 width:720rpx;height:72rpx;
+			 display: flex;
+			 align-items: center;
+			 padding:5rpx 0 5rpx 25rpx;
+			 border-radius: 60rpx;
+			 background-color:#EEEEEE
+			  }
+		}
+// 轮播图
+		.banner {
+			margin-top: 10rpx;
+			
+		}
+		
+//模块导航
+		.models {
+			margin-top: 60rpx;
+			//width: 960rpx;
+			height: 130rpx;
+			// border: 1px solid red;
+			display: flex;
+			justify-content: space-between;
+			color: #666;
+			view {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-between;
+				font:500  0.8rem 'PingFang-SC-Medium';
+				view {
+					width: 90rpx;
+					height: 90rpx;
+					// border: 1px solid red;
+					image {
+						width: 90rpx;
+						height: 90rpx
+					}
+				}
+			}
+		}
+//课程分类
+		.titlesbox {
+			// margin-top:50rpx;
+			padding:50rpx 0 0 0;
+			height:480rpx;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			
+			&>text{
+				margin-bottom: 20rpx;
+			}
+			.titleitem{
+				width:690rpx;height:420rpx;
+				
+				// border:1px solid red;
+				display: flex;
+				justify-content: space-between;
+				.tright{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+				}
+			}
+			
+		}
+		// 信息资讯
+		.ifcf{
+			.ititle{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding:45rpx 0 30rpx 0;
+				.ricon{
+					width:10rpx;height:10rpx;
+					border-top:1rpx solid #999;
+					border-right:1rpx solid #999; 
+					transform: rotate(45deg);
+			    }
+		     }
+			 .icontainer{
+			 	display: flex;
+			 	align-items: center;	
+				border-bottom: 1px solid #D3D3D3;
+				padding:18rpx 0;
+			 	.iright{
+					height:180rpx;
+			 		display: flex;
+			 		flex-direction: column;
+					justify-content: space-between;
+					// border:1px solid red;
+			 		.iitem{
+			 		display: flex;	
+					align-items: center;
+					justify-content: space-between;
+					color:#999;
+					font-size: 0.5rem;
+					.righthand{
+						display: flex;	
+					}
+					.rightbottom{
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+					}
+					& text{
+						padding:0 8rpx
+					}
+					
+			 		}
+					// 上
+					.irightop{
+						display: flex;
+						flex-direction: column;
+					}
+					// 下
+					.irightbottom{
+						display: flex;
+						justify-content: space-between;
+						align-items: flex-end;
+						.iblt{
+							
+						}
+						.ibgt{
+							display: flex;
+							flex-direction: column;
+							justify-content: flex-end;
+						}
+					} 
+					
+					
+			 	}
+			 }
+			
+		}
+	}
+	
